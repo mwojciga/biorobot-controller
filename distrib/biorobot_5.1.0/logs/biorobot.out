@@ -1,0 +1,75 @@
+2013-12-14 10:48:17,600 | INFO | (OperationProcessor.java:89) | Found port: COM1
+2013-12-14 10:48:17,621 | INFO | (OperationProcessor.java:94) | COM1 is a serial port. Added.
+2013-12-14 10:48:17,624 | INFO | (OperationProcessor.java:89) | Found port: COM3
+2013-12-14 10:48:17,624 | INFO | (OperationProcessor.java:94) | COM3 is a serial port. Added.
+2013-12-14 10:48:17,627 | INFO | (OperationProcessor.java:89) | Found port: LPT1
+2013-12-14 10:48:41,376 | TRACE | (MainGUI.java:696) | [C]: mntmNew
+2013-12-14 10:51:44,894 | TRACE | (MainGUI.java:737) | [C]: btnConnect
+2013-12-14 10:51:44,897 | INFO | (OperationProcessor.java:102) | Connecting to COM3
+2013-12-14 10:51:44,949 | INFO | (OperationProcessor.java:117) | Successfully connected to //./COM3
+2013-12-14 10:51:44,951 | INFO | (OperationProcessor.java:129) | Opening IOStream.
+2013-12-14 10:51:44,951 | INFO | (OperationProcessor.java:136) | IOStream successfully opened.
+2013-12-14 10:51:44,953 | INFO | (OperationProcessor.java:147) | Initializing listener.
+2013-12-14 10:51:47,103 | TRACE | (MainGUI.java:696) | [C]: mntmNew
+2013-12-14 10:52:01,382 | TRACE | (MainGUI.java:701) | [C]: mntmLoad
+2013-12-14 10:52:01,382 | DEBUG | (MainGUI.java:703) | There wasn't any route loaded before.
+2013-12-14 10:52:09,072 | INFO | (ActionProcessor.java:34) | Choosen route file: C:\Users\Wcg\Desktop\test.txt
+2013-12-14 10:52:12,118 | TRACE | (MainGUI.java:782) | [C]: btnCalibrate
+2013-12-14 10:52:12,129 | INFO | (OperationProcessor.java:296) | Sent: Sv0d000x00000y00000z00000t000e2h0E
+2013-12-14 10:52:12,209 | INFO | (OperationProcessor.java:195) | Received: Sl111111x0y0z0t0e2E
+2013-12-14 10:52:12,212 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][0:0:0:0][0:0:0:0][0:0:0:0][T:0:0]
+2013-12-14 10:52:12,212 | INFO | (OperationProcessor.java:211) | Calibrate: false; Actual: true; Error: false; Lock: false; Comparison: true; Calibrating: false
+2013-12-14 10:52:12,213 | INFO | (ActualCoordinates.java:65) | Actual coordinates message: Sl111111x0y0z0t0e2E
+2013-12-14 10:52:12,217 | INFO | (ActualCoordinates.java:68) | Actual coordinates: [0, 0, 0]
+2013-12-14 10:52:12,221 | INFO | (OperationProcessor.java:339) | Starting calibration.
+2013-12-14 10:52:12,224 | INFO | (OperationProcessor.java:298) | Sent: Sv5d000x99999y99999z99999t000e3h1E
+2013-12-14 10:52:18,130 | INFO | (OperationProcessor.java:195) | Received: Sl111101x0y0z-6131t0e3E
+2013-12-14 10:52:18,133 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][-999990:0:99999:0][-999990:0:99999:0][-999990:-6131:99999:-6131][T:0:0]
+2013-12-14 10:52:18,134 | INFO | (OperationProcessor.java:211) | Calibrate: false; Actual: false; Error: false; Lock: false; Comparison: false; Calibrating: true
+2013-12-14 10:52:18,234 | INFO | (OperationProcessor.java:195) | Received: Sl111111x0y0z10t0e3E
+2013-12-14 10:52:18,236 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][-999990:0:99999:0][-999990:0:99999:0][-999990:10:99999:10][T:0:0]
+2013-12-14 10:52:18,237 | INFO | (OperationProcessor.java:211) | Calibrate: false; Actual: false; Error: false; Lock: false; Comparison: false; Calibrating: true
+2013-12-14 10:52:20,820 | INFO | (OperationProcessor.java:195) | Received: Sl110111x-2717y-2717z10t0e3E
+2013-12-14 10:52:20,822 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][-999990:-2717:99999:-2717][-999990:-2717:99999:-2717][-999990:10:99999:10][T:0:0]
+2013-12-14 10:52:20,823 | INFO | (OperationProcessor.java:211) | Calibrate: false; Actual: false; Error: false; Lock: false; Comparison: false; Calibrating: true
+2013-12-14 10:52:20,889 | INFO | (OperationProcessor.java:195) | Received: Sl010111x-2787y0z10t0e3E
+2013-12-14 10:52:20,896 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][-999990:-2787:99999:-2787][-999990:0:99999:0][-999990:10:99999:10][T:0:0]
+2013-12-14 10:52:20,896 | INFO | (OperationProcessor.java:211) | Calibrate: false; Actual: false; Error: false; Lock: false; Comparison: false; Calibrating: true
+2013-12-14 10:52:21,068 | INFO | (OperationProcessor.java:195) | Received: Sl110111x10y0z10t0e3E
+2013-12-14 10:52:21,070 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][-999990:10:99999:10][-999990:0:99999:0][-999990:10:99999:10][T:0:0]
+2013-12-14 10:52:21,071 | INFO | (OperationProcessor.java:211) | Calibrate: false; Actual: false; Error: false; Lock: false; Comparison: false; Calibrating: true
+2013-12-14 10:52:21,101 | INFO | (OperationProcessor.java:195) | Received: Sl111111x10y10z10t0e3E
+2013-12-14 10:52:21,104 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][-999990:10:99999:10][-999990:10:99999:10][-999990:10:99999:10][T:0:0]
+2013-12-14 10:52:21,105 | INFO | (OperationProcessor.java:211) | Calibrate: true; Actual: false; Error: false; Lock: false; Comparison: false; Calibrating: false
+2013-12-14 10:52:21,105 | INFO | (Calibrate.java:68) | Actual message: Sl111111x10y10z10t0e3E
+2013-12-14 10:52:21,107 | INFO | (Calibrate.java:71) | Calibrated.
+2013-12-14 10:52:23,766 | TRACE | (MainGUI.java:749) | [C]: btnStart
+2013-12-14 10:52:23,769 | INFO | (OperationProcessor.java:296) | Sent: Sv0d000x00000y00000z00000t000e2h0E
+2013-12-14 10:52:23,833 | INFO | (OperationProcessor.java:195) | Received: Sl111111x10y10z10t0e2E
+2013-12-14 10:52:23,834 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][10:10:0:10][10:10:0:10][10:10:0:10][T:0:0]
+2013-12-14 10:52:23,835 | INFO | (OperationProcessor.java:211) | Calibrate: false; Actual: true; Error: false; Lock: false; Comparison: true; Calibrating: false
+2013-12-14 10:52:23,835 | INFO | (ActualCoordinates.java:65) | Actual coordinates message: Sl111111x10y10z10t0e2E
+2013-12-14 10:52:23,837 | INFO | (ActualCoordinates.java:68) | Actual coordinates: [10, 10, 10]
+2013-12-14 10:52:23,850 | INFO | (OperationProcessor.java:294) | Sent: Sv5d001x00000y00000z01370t000e0h1E
+2013-12-14 10:52:36,686 | INFO | (OperationProcessor.java:195) | Received: Sl111111x10y10z13710t0e0E
+2013-12-14 10:52:36,688 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][10:10:0:10][10:10:0:10][13710:13710:1370:13710][T:0:0]
+2013-12-14 10:52:36,689 | INFO | (OperationProcessor.java:211) | Calibrate: false; Actual: false; Error: false; Lock: false; Comparison: true; Calibrating: false
+2013-12-14 10:52:36,690 | INFO | (OperationProcessor.java:229) | Reached [10, 10, 13710].
+2013-12-14 10:52:36,696 | INFO | (OperationProcessor.java:294) | Sent: Sv6d110x03940y01570z00000t000e0h0E
+2013-12-14 10:52:48,335 | INFO | (OperationProcessor.java:195) | Received: Sl111111x15710y15710z13710t0e0E
+2013-12-14 10:52:48,337 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][39410:15710:3940:15710][15710:15710:1570:15710][13710:13710:0:13710][T:0:0]
+2013-12-14 10:52:48,338 | INFO | (OperationProcessor.java:211) | Calibrate: false; Actual: false; Error: false; Lock: false; Comparison: false; Calibrating: false
+2013-12-14 10:53:05,840 | INFO | (OperationProcessor.java:195) | Received: Sl111111x39410y15710z13710t0e0E
+2013-12-14 10:53:05,843 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][39410:39410:3940:39410][15710:15710:1570:15710][13710:13710:0:13710][T:0:0]
+2013-12-14 10:53:05,844 | INFO | (OperationProcessor.java:211) | Calibrate: false; Actual: false; Error: false; Lock: false; Comparison: true; Calibrating: false
+2013-12-14 10:53:05,845 | INFO | (OperationProcessor.java:229) | Reached [39410, 15710, 13710].
+2013-12-14 10:53:05,850 | INFO | (OperationProcessor.java:294) | Sent: Sv5d001x00000y00000z01100t480e0h1E
+2013-12-14 10:53:16,181 | INFO | (OperationProcessor.java:195) | Received: Sl111111x39410y15710z24710t0e0E
+2013-12-14 10:53:16,185 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][39410:39410:0:39410][15710:15710:0:15710][24710:24710:1100:24710][T:480:0]
+2013-12-14 10:53:16,185 | INFO | (OperationProcessor.java:211) | Calibrate: false; Actual: false; Error: false; Lock: false; Comparison: false; Calibrating: false
+2013-12-14 11:04:29,576 | TRACE | (MainGUI.java:754) | [C]: btnStop
+2013-12-14 11:04:29,576 | INFO | (OperationProcessor.java:301) | Robot stopped by the user!
+2013-12-14 11:04:29,669 | INFO | (OperationProcessor.java:195) | Received: Sl111111x39410y15710z24710t0e1E
+2013-12-14 11:04:29,669 | INFO | (OperationProcessor.java:512) | [X:Y:Z][EX:RE:SE:AC][39410:39410:0:39410][15710:15710:0:15710][24710:24710:0:24710][T:0:0]
+2013-12-14 11:04:29,669 | INFO | (OperationProcessor.java:211) | Calibrate: false; Actual: false; Error: true; Lock: false; Comparison: true; Calibrating: false
+2013-12-14 11:04:29,669 | INFO | (OperationProcessor.java:220) | Received a message with an error from //./COM3

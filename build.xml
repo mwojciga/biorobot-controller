@@ -1,0 +1,69 @@
+<project name="biorobot" basedir="." default="main">
+	
+	<property file="conf/conf.properties" />
+
+	<tstamp>
+		<format property="compile.time" pattern="yyy.MM.dd HH:mm:ss" />
+	</tstamp>
+
+	<property name="version" value="${version}" />
+	<property name="src.dir" value="src" />
+	<property name="archive.dir" value="archive" />
+	<property name="build.dir" value="distrib/${ant.project.name}_${version}" />
+	<property name="main-class" value="gui.pack.MainGUI" />
+	<property name="lib.dir" value="lib" />
+	<property name="author" value="${author}" />
+
+	<target name="clean">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="readme">
+		<echo file="${build.dir}/readme.txt">Version = ${version}${line.separator}Compiled = ${compile.time} by ${author}</echo>
+	</target>
+
+	<target name="copyDirs" depends="readme">
+		<copy file="biorobot.bat" todir="${build.dir}" />
+		<copy todir="${build.dir}/conf">
+			<fileset dir="conf" />
+		</copy>
+		<copy todir="${build.dir}/routes">
+			<fileset dir="routes" />
+		</copy>
+		<copy todir="${build.dir}/img">
+			<fileset dir="img" />
+		</copy>
+	</target>
+	
+	<target name="archiveSource" depends="copyDirs">
+		<!-- make tar.gz from source and put it in "archive" dir -->
+		<delete file="${archive.dir}/${ant.project.name}_${version}.zip" />
+		<zip destfile="${archive.dir}/${ant.project.name}_${version}.zip" basedir="${src.dir}" comment="Created: ${compile.time}" />
+	</target>
+
+	<target name="jar" depends="archiveSource">
+		<jar destfile="${build.dir}/${ant.project.name}.jar" filesetmanifest="mergewithoutmain">
+			<manifest>
+				<attribute name="Main-Class" value="${main-class}" />
+				<attribute name="Class-Path" value=". conf/" />
+			</manifest>
+			<fileset dir="bin" />
+			<zipfileset dir="conf" prefix="conf" />
+			<zipfileset dir="${build.dir}" includes="readme.txt" prefix="version" />
+			<zipfileset excludes="META-INF/*.SF" src="${lib.dir}/log4j-1.2.17.jar" />
+			<zipfileset excludes="META-INF/*.SF" src="${lib.dir}/RXTXcomm.jar" />
+		</jar>
+	</target>
+
+	<target name="run" depends="jar">
+		<java fork="true" classname="${main-class}">
+			<classpath>
+				<path refid="classpath" />
+				<path location="${build.dir}/${ant.project.name}_${version}.jar" />
+			</classpath>
+		</java>
+	</target>
+
+	<target name="main" depends="clean,jar" />
+
+</project>

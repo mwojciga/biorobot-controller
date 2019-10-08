@@ -1,0 +1,55 @@
+[5.1.1]1. Minor change in RoutePanel class.
+[5.1.1]2. Added time to wait in main panel.
+[5.1.1]3. Main panel reorganization.
+[5.1.1]4. Added global calibrate variable.
+[5.1.1]5. Added "Go to hole" function on mainGUI.
+[5.1.1]6. Added details regarding actual route on mainGUI.
+[5.1.1]7. Bugfixed previous version.
+[5.1.1]8. Redrawn pallette acording to acutal coordinates.
+
+[5.1.0]1. Major changes in few classes.
+[5.1.0]2. The generated route is now more human readable.
+[5.1.0]3. Upgraded the internal calculation process.
+[5.1.0]4. Changed the position of the first hole.
+[5.1.0]5. Changed the distance parameter between the holes.
+[5.1.0]6. Major bug with multiplicating route values in v.5.0.4.
+
+[5.0.4]1. Fixed route after route bug.
+[5.0.4]2. Upgraded performance - code cleanup.
+[5.0.4]3. Upgraded logging and messaging.
+[5.0.4]4. Fixed some calibration bugs.
+
+[5.0.3]1. Added SystemParameters class.
+[5.0.3]2. Changed X and Y speed to 6 and Z speed to 5.
+[5.0.3]3. Added "Options" panel. Temporary unavailable.
+[5.0.3]4. NewRoute - when X and Y move is 0, no command is added.
+
+[5.0.2]1. Minor things - quickly updated to 5.0.3
+
+[5.0.1]1. Changed the speed of calibration and few other things.
+
+[5.0]1. Steering is now more precise. To uC multiplicator equals 10, not 100.
+[5.0]2. Robot range increased 10 times.
+[5.0]3. When calibrating, Z moves first.
+[5.0]4. Before any move, software checks if we're submerged. If yes, Z moves first, no matter what.
+[5.0]5. Added some log information.
+[5.0]6. Other minor changes.
+
+[4.12]1. Changed the transport height.
+[4.12]2. Changed the proper y coordinates of the first hole, according to newly screwed y platform.
+[4.12]3. Changed the manual move speed to 8 (was 7).
+[4.12]4. Changed the calibration speed to 9 (was 7).
+[4.12]5. Changed the load move speed to 8 (was 7).
+[4.12]6. Changed the 25th hole coordinates.
+[4.12]7. Centered hole numbers.
+
+[4.11]1. Fixed calibration problem.
+[4.11]2. Disabled all the buttons while disconnected.
+[4.11]3. Enabled all the buttons while connected.
+[4.11]4. Changed the transport height from 200 pt to 180 pt.
+[4.11]5. Bugfixed the 25th hole coordinates.
+[4.11]6. Made STOP button red.
+[4.11]7. Improved the messages methodology.
+[4.11]8. The actual hole is filled with color.
+[4.11]9. The expected position is shown on the screen.
+[4.11]10. Added refresh button to connect panel.
