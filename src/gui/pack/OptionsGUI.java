@@ -14,6 +14,12 @@ import javax.swing.UnsupportedLookAndFeelException;
 import biorobot.data.SystemParametersData;
 import biorobot.pack.SystemParameters;
 
+/**
+ * Desc: 
+ * @author maciej.wojciga
+ * @author klaudia.trembecka
+ *
+ */
 public class OptionsGUI extends JFrame {
 
 	private static final long serialVersionUID = 1L;

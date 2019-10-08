@@ -18,7 +18,7 @@ import biorobot.pack.SystemParameters;
 /**
  * Draws the route panel in mainGUI.
  * @author maciej.wojciga
- *
+ * @author klaudia.trembecka
  */
 
 /*

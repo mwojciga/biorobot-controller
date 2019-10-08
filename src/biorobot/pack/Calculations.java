@@ -10,6 +10,8 @@ import biorobot.data.SystemParametersData;
 /**
  * Calculates things.
  * @author maciej.wojciga
+ * @author klaudia.trembecka
+ *
  */
 
 public class Calculations {

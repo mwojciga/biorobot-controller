@@ -3,6 +3,7 @@ package biorobot.data;
 /**
  * Input message DTO.
  * @author maciej.wojciga
+ * @author klaudia.trembecka
  *
  */
 public class InputMessageData {

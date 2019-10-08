@@ -8,6 +8,12 @@ import biorobot.data.SystemParametersData;
 import biorobot.pack.Log;
 import biorobot.pack.OperationProcessor;
 
+/**
+ * Desc: 
+ * @author maciej.wojciga
+ * @author klaudia.trembecka
+ *
+ */
 public class Calibrate implements Runnable {
 
 	MainGUI mainGUI;

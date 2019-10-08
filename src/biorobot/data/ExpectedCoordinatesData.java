@@ -3,6 +3,7 @@ package biorobot.data;
 /**
  * Expected coordinates DTO.
  * @author maciej.wojciga
+ * @author klaudia.trembecka
  *
  */
 public class ExpectedCoordinatesData {

@@ -5,6 +5,7 @@ import gui.pack.MainGUI;
 /**
  * Writes logs and messages.
  * @author maciej.wojciga
+ * @author klaudia.trembecka
  */
 public class Log {
 

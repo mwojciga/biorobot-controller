@@ -17,6 +17,12 @@ import biorobot.pack.Calculations;
 import biorobot.pack.Log;
 import biorobot.pack.OperationProcessor;
 
+/**
+ * Desc: 
+ * @author maciej.wojciga
+ * @author klaudia.trembecka
+ *
+ */
 public class StartRouteFromFile implements Runnable {
 
 	MainGUI mainGUI;
@@ -49,7 +55,6 @@ public class StartRouteFromFile implements Runnable {
 	@Override
 	public void run() {
 		try {
-			// TODO Policz przy starcie trasy jakie powinny byc koñcowe koordynaty. Jeœli siê pojawi¹ i lista siê zakoñczy to wyœwietl komunikat.
 			mainGUI.progressBar.setValue(0);
 			BufferedReader reader = new BufferedReader(new FileReader(loadedFile));
 			String line = "";
@@ -81,7 +86,7 @@ public class StartRouteFromFile implements Runnable {
 				mainGUI.progressBar.setValue(percentageDone);
 				if (i == commandList.size()-1) {
 					mainGUI.progressBar.setValue(0);
-					JOptionPane.showMessageDialog(mainGUI, "Trasa zosta³a zakoñczona!", "Info", JOptionPane.INFORMATION_MESSAGE);
+					JOptionPane.showMessageDialog(mainGUI, "Trasa zostaï¿½a zakoï¿½czona!", "Info", JOptionPane.INFORMATION_MESSAGE);
 				}
 			}
 		} catch (InterruptedException e) {

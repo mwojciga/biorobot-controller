@@ -48,6 +48,7 @@ import biorobot.pack.SystemParameters;
  * The main class of the software.
  * Initializes the GUI and starts the software.
  * @author maciej.wojciga
+ * @author klaudia.trembecka
  */
 
 public class MainGUI extends JFrame {
@@ -165,7 +166,6 @@ public class MainGUI extends JFrame {
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (UnsupportedLookAndFeelException | ClassNotFoundException | InstantiationException | IllegalAccessException e) {
-			// Jakieœ logi?
 			e.printStackTrace();
 		}
 		Image icon = Toolkit.getDefaultToolkit().getImage("./img/imim_logo.gif");

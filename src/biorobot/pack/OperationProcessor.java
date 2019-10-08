@@ -34,6 +34,7 @@ import biorobot.threads.WaitingCounter;
 /**
  * Operations class.
  * @author maciej.wojciga
+ * @author klaudia.trembecka
  */
 
 public class OperationProcessor implements SerialPortEventListener {
@@ -200,7 +201,7 @@ public class OperationProcessor implements SerialPortEventListener {
 					logger.info("Received: " + inputMessage);
 					System.out.println("[R]: " + inputMessage);
 					setActualCoordinates(inputMessage);
-					// TODO What a mess. Shorten this code, use methods.
+					// TODO Shorten this code, use methods.
 					// If we've received a time in the message, start the timer and update main GUI.
 					if (shouldWait) {
 						checkForTime(sendedMessage);

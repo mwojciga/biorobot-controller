@@ -7,6 +7,12 @@ import org.apache.log4j.Logger;
 import biorobot.pack.Log;
 import biorobot.pack.OperationProcessor;
 
+/**
+ * Desc: 
+ * @author maciej.wojciga
+ * @author klaudia.trembecka
+ *
+ */
 public class ActualCoordinates implements Runnable {
 
 	MainGUI mainGUI;

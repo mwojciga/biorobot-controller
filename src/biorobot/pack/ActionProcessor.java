@@ -12,6 +12,12 @@ import javax.swing.JFileChooser;
 
 import org.apache.log4j.Logger;
 
+/**
+ * 
+ * @author maciej.wojciga
+ * @author klaudia.trembecka
+ *
+ */
 public class ActionProcessor {
 	MainGUI mainGUIfrm = null;
 	private ArrayList<String> nodesList = new ArrayList<String>();

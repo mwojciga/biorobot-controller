@@ -3,7 +3,12 @@ package biorobot.test;
 import biorobot.pack.Calculations;
 import biorobot.pack.SystemParameters;
 
-
+/**
+ * Desc: 
+ * @author maciej.wojciga
+ * @author klaudia.trembecka
+ *
+ */
 public class Test {
 	public static void main(String[] args) {
 		int zdir = 2;

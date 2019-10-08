@@ -23,6 +23,12 @@ import biorobot.data.SystemParametersData;
 import biorobot.pack.OperationProcessor;
 import biorobot.pack.SystemParameters;
 
+/**
+ * Desc: 
+ * @author maciej.wojciga
+ * @author klaudia.trembecka
+ *
+ */
 public class NewRouteGUI extends JFrame {
 
 	private static final long serialVersionUID = -4631407592664611937L;

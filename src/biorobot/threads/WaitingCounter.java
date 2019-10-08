@@ -2,6 +2,12 @@ package biorobot.threads;
 
 import gui.pack.MainGUI;
 
+/**
+ * Desc: 
+ * @author maciej.wojciga
+ * @author klaudia.trembecka
+ *
+ */
 public class WaitingCounter implements Runnable {
 	
 	public Thread waitingCounterThread;

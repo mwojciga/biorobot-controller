@@ -9,6 +9,7 @@ import biorobot.pack.SystemParameters;
 /**
  * System parameters DTO.
  * @author maciej.wojciga
+ * @author klaudia.trembecka
  */
 
 public class SystemParametersData {

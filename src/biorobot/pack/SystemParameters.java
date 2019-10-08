@@ -1,5 +1,11 @@
 package biorobot.pack;
 
+/**
+ * Desc: 
+ * @author maciej.wojciga
+ * @author klaudia.trembecka
+ *
+ */
 public class SystemParameters {
 	/* NewRouteGUI.java */
 	//public static final int GAP = 800; // gap between the holes.
